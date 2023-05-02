@@ -49,10 +49,6 @@ int main() {
 
 Contributions to this project are welcome! If you find a bug or want to add a new algorithm, please open an issue or submit a pull request.
 
-## License 📜
-
-This project is licensed under the MIT License. See `LICENSE` for more information.
-
 ## Acknowledgements 🙏
 
 This project was inspired by the sorting algorithms section of the [Algorithms and Data Structures](https://www.youtube.com/watch?v=D_bv_kf77Jk&list=PLtS9P-Hn2iKiGd13-XgY_lRRXG0UE40ui&index=9) course on YouTube, taught by Dr.Ahmed Hamdy.
