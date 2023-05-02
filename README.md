@@ -8,7 +8,9 @@ The following algorithms are currently implemented:
 
 - Bubble Sort 🧼
 - Insertion Sort 📩
+- Shell Sort 🐚
 - Selection Sort 👈👉
+- Heap Sort 💾
 - Merge Sort 🤝
 - Quick Sort ⚡
 
