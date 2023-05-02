@@ -113,3 +113,41 @@ void InsertionSort(int arr[], int size)
 		}
 	}
 }
+
+void ShellSortWithSteps(int arr[], int size)
+{
+	for (int i = 0; i < size; i++)
+		cout << arr[i] << " ";
+	cout << endl;
+	for (int g = size/2; g > 0; g /= 2)
+	{
+		for (int offset = 0; offset < g; offset++)
+			for (int i = offset; i < size; i+=g)
+			{
+				int temp = arr[i];
+				int j;
+				for ( j = i; j >= g && arr[j - g] > temp; j -= g)
+					arr[j] = arr[j - g];
+				arr[j] = temp;
+			}
+		for (int i = 0; i < size; i++)
+			cout << arr[i] << " ";
+		cout << endl;
+	}
+}
+
+void ShellSort(int arr[], int size)
+{
+	for (int g = size / 2; g > 0; g /= 2)
+	{
+		for (int offset = 0; offset < g; offset++)
+			for (int i = offset; i < size; i += g)
+			{
+				int temp = arr[i];
+				int j;
+				for (j = i; j >= g && arr[j - g] > temp; j -= g)
+					arr[j] = arr[j - g];
+				arr[j] = temp;
+			}
+	}
+}
