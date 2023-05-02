@@ -60,3 +60,5 @@ This project was inspired by the sorting algorithms section of the [Algorithms a
 ## Contact 📧
 
 If you have any questions or comments about this project, please feel free to contact me at [LinkedIn](https://www.linkedin.com/in/bishoy-wadea-27b016250/).
+
+this ReadMe is written by ChatGPT :)
