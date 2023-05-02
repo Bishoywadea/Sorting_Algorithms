@@ -49,8 +49,6 @@ int main() {
 
 Contributions to this project are welcome! If you find a bug or want to add a new algorithm, please open an issue or submit a pull request.
 
-Before making any changes, please make sure that you read the contribution guidelines in `CONTRIBUTING.md`.
-
 ## License 📜
 
 This project is licensed under the MIT License. See `LICENSE` for more information.
